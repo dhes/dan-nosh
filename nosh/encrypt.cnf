@@ -9,3 +9,5 @@ innodb-encrypt-log
 innodb_default_encryption_key_id = 1
 innodb-encryption-threads=4
 encrypt_binlog
+# added by DH to change the way null defaults are handled in datetimes
+# explicit_defaults_for_timestamp = "ON" #no apparent effect

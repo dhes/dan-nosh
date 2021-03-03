@@ -10,6 +10,8 @@ services:
         - ./nosh/encrypt.cnf:/etc/mysql/conf.d/encrypt.cnf
         - ./key.enc:/application/key.enc
         - ./.key:/application/.key
+      ports:  
+        - 3306:3306  #Gives Dan access to MariaDB on local machine
       environment:
         MYSQL_ROOT_PASSWORD_FILE: /run/secrets/db_root_password
         MYSQL_DATABASE: nosh
@@ -50,7 +52,8 @@ services:
       entrypoint: "/bin/sh -c 'trap exit TERM; while :; do certbot renew; sleep 12h & wait $${!}; done;'"
 
     app-nosh:
-      image: shihjay2/nosh2:latest
+      image: dheslinga/nosh2:v1
+#     build: https://github.com/shihjay2/nosh2.git
       working_dir: /var/www/nosh
       restart: unless-stopped
       volumes:
@@ -93,7 +96,7 @@ services:
         - ./mailgun_secret.txt:/source/docker/mailgun_secret.txt:ro
         - ./nosh_uri:/source/docker/nosh_uri:ro
         - ./.nosh_app_key:/source/docker/.nosh_app_key:ro
-        - ./.pubkey,pem:/source/docker/.pubkey.pem:ro
+        - ./.pubkey.pem:/source/docker/.pubkey.pem:ro
         - ./.privkey.pem:/source/docker/.privkey.pem:ro
         - ./key.enc:/source/docker/key.enc:ro
         - ./.key:/source/docker/.key:ro
