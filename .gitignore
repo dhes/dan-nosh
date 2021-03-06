@@ -1,2 +1,4 @@
 .db_password
 .db_root_password
+.key
+.nosh_app_key
