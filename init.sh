@@ -94,5 +94,5 @@ else
     echo "" > ./nosh_uri.txt
 fi
 echo "Running NOSH..."
-docker-compose up -d
+docker-compose up -d # -d = run container in the background
 exit 0
