@@ -52,7 +52,7 @@ services:
       entrypoint: "/bin/sh -c 'trap exit TERM; while :; do certbot renew; sleep 12h & wait $${!}; done;'"
 
     app-nosh:
-#     image: dheslinga/nosh2:v4 # or....
+      # image: dheslinga/nosh2:v4 # or....
       build: ../nosh2 
       working_dir: /var/www/nosh
       restart: unless-stopped

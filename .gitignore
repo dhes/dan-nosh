@@ -2,3 +2,4 @@
 .db_root_password
 .key
 .nosh_app_key
+.DS_Store
