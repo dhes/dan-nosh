@@ -10,6 +10,7 @@ services:
         - ./nosh/encrypt.cnf:/etc/mysql/conf.d/encrypt.cnf
         - ./key.enc:/application/key.enc
         - ./.key:/application/.key
+        - ./grant.sql:/docker-entrypoint-initdb.d/grant.sql
       ports:  
         - 3306:3306  #Gives Dan access to MariaDB on local machine
       environment:
