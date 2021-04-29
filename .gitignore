@@ -6,4 +6,5 @@
 key
 key.enc
 mailgun_secret.txt
-certbot/
+mailgun_domain.txt
+/certbot
