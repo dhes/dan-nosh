@@ -6,3 +6,4 @@
 key
 key.enc
 mailgun_secret.txt
+certbot/
