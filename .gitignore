@@ -3,3 +3,6 @@
 .key
 .nosh_app_key
 .DS_Store
+key
+key.enc
+mailgun_secret.txt

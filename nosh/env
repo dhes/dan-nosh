@@ -7,7 +7,9 @@ DB_CONNECTION=mysql
 DB_PORT=3306
 DB_DATABASE=nosh
 DB_USERNAME=asuser
-DB_PASSWORD_FILE=/run/secrets/db_password
+DB_PASSWORD_FILE=/run/secrets/db_password 
+# temporarily hard code password to make mysql writeable from terminal shell
+
 DB_HOST=mariadb-nosh
 
 CACHE_DRIVER=file

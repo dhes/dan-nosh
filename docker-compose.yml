@@ -11,7 +11,7 @@ services:
         - ./key.enc:/application/key.enc
         - ./.key:/application/.key
         - ./grant.sql:/docker-entrypoint-initdb.d/grant.sql
-      ports:  
+      ports: 
         - 3306:3306  #Gives Dan access to MariaDB on local machine
       environment:
         MYSQL_ROOT_PASSWORD_FILE: /run/secrets/db_root_password

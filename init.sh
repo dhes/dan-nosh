@@ -10,7 +10,7 @@ if ! [ -x "$(command -v docker-compose)" ]; then
     echo 'Error: docker-compose is not installed.' >&2
     exit 1
 fi
-read -e -r -p "What is your domain name where NOSH will be served? (example.com); leave blank if none" domain
+read -e -r -p "What is your domain name where NOSH will be served? (example.com); leave blank if none: " domain # DH -i option removed
 [ -z "${domain}" ] && domain=''
 echo "Docker installed, generating keys..."
 docker run -it -v "$(pwd)":/data alpine /bin/sh -c "apk update \
@@ -26,11 +26,15 @@ docker run -it -v "$(pwd)":/data alpine /bin/sh -c "apk update \
 && echo -n 'base64:' > .nosh_app_key \
 && cat /dev/urandom | head -c 32 | base64 >> .nosh_app_key"
 if [[ -n $domain ]]; then
-    read -e -r -p "What is your email address?  This is to register your SSL certificate." -i "" email
+#   read -e -r -p "What is your email address?  This is to register your SSL certificate." -i "" email # -i option not available on mac
+    read -e -r -p "What is your email address?  This is to register your SSL certificate. " email
     cp ./nginx_ssl.conf ./nginx.conf
-    sed -i "s/example.org/$domain/" ./nginx.conf
+    # next line changed, see https://stackoverflow.com/questions/19456518/invalid-command-code-despite-escaping-periods-using-sed#19457213
+#   sed -i "s/example.org/$domain/" ./nginx.conf
+    sed -i "" -e "s/example.org/$domain/" ./nginx.conf
     echo "https://$domain/nosh" > ./nosh_uri.txt
-    domains=("$domain" www."$domain")
+#    domains=("$domain" www."$domain") // DH I don't have a www domain
+    domains=("$domain")
     rsa_key_size=4096
     data_path="./certbot"
     staging=0 # Set to 1 if you're testing your setup to avoid hitting request limits
