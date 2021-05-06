@@ -63,6 +63,7 @@ services:
         - nosh_public:/var/www/nosh/public
         - nosh_documents:/noshdocuments
         - ./nosh/env:/var/www/nosh/.env
+        - ./mlVaccineCategorization.json:/var/www/nosh/mlVaccineCategorization.json
       env_file: ./nosh/env
       links:
         - mariadb-nosh
