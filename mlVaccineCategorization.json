@@ -1,5 +1,5 @@
 {"ml_hdid_map": [
-	{"cvx_code": "CVX-01",
+	{"cvx_code": "01",
 	"name": 	"DPT",
 	"series": 	[1,1,2,3,4,5],
 	"given": 	[84,13910,97,98,99,100], 
@@ -12,7 +12,7 @@
 	"vis_date": [8197,null,8198,8199,8200,8201]
 	},
 	{
-	"cvx_code": "CVX-03",
+	"cvx_code": "03",
 	"name": 	"MMR",
 	"series": 	[1,2,3,null],
 	"given": 	[87,104,5168,10034], 
@@ -24,7 +24,7 @@
 	"site": 	[4059,4060,null,10036],
 	"vis_date": [6743,6744,8224,null]
 	},
-	{"cvx_code": "CVX-05",
+	{"cvx_code": "05",
 	"name": 	"measles",
 	"series": 	[null],
 	"given": 	[89], 
@@ -36,7 +36,7 @@
 	"site": 	[null],
 	"vis_date": [null]
 	},
-	{"cvx_code": "CVX-06",
+	{"cvx_code": "06",
 	"name": 	"rubella",
 	"series": 	[null],
 	"given": 	[2960], 
@@ -48,7 +48,7 @@
 	"site": 	[null],
 	"vis_date": [null]
 	},
-	{"cvx_code": "CVX-07",
+	{"cvx_code": "07",
 	"name": 	"mumps",
 	"series": 	[null],
 	"given": 	[2955], 
@@ -60,7 +60,7 @@
 	"site": 	[null],
 	"vis_date": [null]
 	},
-	{"cvx_code": "CVX-10",
+	{"cvx_code": "10",
 	"name": 	"polio",
 	"series": 	[1,2,3,4,5,null],
 	"given": 	[86,191,192,2741,11243,95636], 
@@ -72,7 +72,7 @@
 	"site": 	[8179,8181,8183,8185,11245,null],
 	"vis_date": [6740,6741,6742,8217,7622,null]
 	},
-	{"cvx_code": "CVX-100",
+	{"cvx_code": "100",
 	"name": 	"heptavalent pneumococcal conjugate vaccine (7-valent)",
 	"series": 	[1,2,3,4],
 	"given": 	[23752,23753,23754,23755], 
@@ -84,7 +84,7 @@
 	"site": 	[14099,14106,14113,14120],
 	"vis_date": [23693,23694,23695,23696]
 	},
-	{"cvx_code": "CVX-104",
+	{"cvx_code": "104",
 	"name": 	"Twinrix",
 	"series": 	[1,2],
 	"given": 	[24801,24805], 
@@ -96,7 +96,7 @@
 	"site": 	[24881,26472],
 	"vis_date": [null,null]
 	},
-	{"cvx_code": "CVX-108",
+	{"cvx_code": "108",
 	"name": 	"meningococcal vaccination,",
 	"series": 	[null],
 	"given": 	[null], 
@@ -108,7 +108,7 @@
 	"site": 	[null],
 	"vis_date": [15876]
 	},
-	{"cvx_code": "CVX-109",
+	{"cvx_code": "109",
 	"name": 	"Prevnar",
 	"series": 	[1,2,3,4,5],
 	"given": 	[13916,13923,13930,13937,43150], 
@@ -120,7 +120,7 @@
 	"site": 	[13919,13926,13933,13940,45372],
 	"vis_date": [14511,14512,14513,14514,45370]
 	},
-	{"cvx_code": "CVX-110",
+	{"cvx_code": "110",
 	"name": 	"Pediarix",
 	"series": 	[1,1,2,2,3],
 	"given": 	[42614,40645,42617,40653,40661], 
@@ -132,7 +132,7 @@
 	"site": 	[42584,40670, null, null,40666],
 	"vis_date": [null ,40652, null, null,40668]
 	},
-	{"cvx_code": "CVX-112",
+	{"cvx_code": "112",
 	"name": 	"tetanus",
 	"series": 	[null],
 	"given": 	[2557], 
@@ -144,7 +144,7 @@
 	"site": 	[4248],
 	"vis_date": [null]
 	},
-	{"cvx_code": "CVX-114",
+	{"cvx_code": "114",
 	"name": 	"Menactra",
 	"series": 	[1,2],
 	"given": 	[81980,83779], 
@@ -156,7 +156,7 @@
 	"site": 	[81985,83785],
 	"vis_date": [89815,83784]
 	},
-	{"cvx_code": "CVX-115",
+	{"cvx_code": "115",
 	"name": 	"TdaP",
 	"series": 	[1,2],
 	"given": 	[86287,90540], 
@@ -168,7 +168,7 @@
 	"site": 	[86292,90542],
 	"vis_date": [86293,95267]
 	},
-	{"cvx_code": "CVX-120",
+	{"cvx_code": "120",
 	"name": 	"Pentacel",
 	"series": 	[1,2,3,4],
 	"given": 	[169564,169572,169580,169588], 
@@ -180,7 +180,7 @@
 	"site": 	[169567,169575,169583,169591],
 	"vis_date": [169569,169577,169585,169593]
 	},
-	{"cvx_code": "CVX-121",
+	{"cvx_code": "121",
 	"name": 	"Zostavax",
 	"series": 	[null],
 	"given": 	[104543], 
@@ -192,7 +192,7 @@
 	"site": 	[104549],
 	"vis_date": [104550]
 	},
-	{"cvx_code": "CVX-122",
+	{"cvx_code": "122",
 	"name": 	"Rotavirus",
 	"series": 	[1,2,3],
 	"given": 	[6647,6652,6657], 
@@ -204,7 +204,7 @@
 	"site": 	[8187,8189,8191],
 	"vis_date": [8219,8220,8221]
 	},
-	{"cvx_code": "CVX-128",
+	{"cvx_code": "128",
 	"name": 	"H1N1",
 	"series": 	[1,1,2],
 	"given": 	[212059,215040,215041], 
@@ -216,7 +216,7 @@
 	"site": 	[212063,  null,212072],
 	"vis_date": [212065,  null,212074]
 	},
-	{"cvx_code": "CVX-130",
+	{"cvx_code": "130",
 	"name": 	"DTAP/IPV",
 	"series": 	[1,null],
 	"given": 	[172627,177014], 
@@ -228,7 +228,7 @@
 	"site": 	[172629,171825],
 	"vis_date": [177405,171828]
 	},
-	{"cvx_code": "CVX-133",
+	{"cvx_code": "133",
 	"name": 	"Prevnar13",
 	"series": 	[1,2,3,4,1,2,3,4,null],
 	"given": 	[243291,243309,243327,243345,241078,241079,241080,241081,245190], 
@@ -240,7 +240,7 @@
 	"site": 	[  null,  null,  null,  null,243306,  null,  null,  null,  null],
 	"vis_date": [243308,243326,243344,243362,241110,241111,241112,241113,  null]
 	},
-	{"cvx_code": "CVX-135",
+	{"cvx_code": "135",
 	"name": 	"Flu TIV high dose",
 	"series": 	[  null],
 	"given": 	[264771], 
@@ -252,7 +252,7 @@
 	"site": 	[264774],
 	"vis_date": [270510]
 	},
-	{"cvx_code": "CVX-139",
+	{"cvx_code": "139",
 	"name": 	"dT",
 	"series": 	[null,1,2,3,4,5],
 	"given": 	[90,193,194,195,196,197], 
@@ -264,7 +264,7 @@
 	"site": 	[4054,11382,11385,11388,11746,null],
 	"vis_date": [null,null,null,null,null,null]
 	},
-	{"cvx_code": "CVX-17",
+	{"cvx_code": "17",
 	"name": 	"H Flu",
 	"series": 	[1,2,3,4,5],
 	"given": 	[88,105,106,107,108], 
@@ -276,7 +276,7 @@
 	"site": 	[4050,4051,4052,4053,8174],
 	"vis_date": [6729,6730,6731,6732,6733]
 	},
-	{"cvx_code": "CVX-20",
+	{"cvx_code": "20",
 	"name": 	"DTaP",
 	"series": 	[1,2,3,4,5],
 	"given": 	[1035,1034,1033,141,190], 
@@ -288,7 +288,7 @@
 	"site": 	[8152,8154,8156,4044,4045],
 	"vis_date": [6724,6725,6726,6727,6728]
 	},
-	{"cvx_code": "CVX-21",
+	{"cvx_code": "21",
 	"name": 	"varicella",
 	"series": 	[1,2,3],
 	"given": 	[305,306,18329], 
@@ -300,7 +300,7 @@
 	"site": 	[8193,8195,183385],
 	"vis_date": [6753,6754,null]
 	},
-	{"cvx_code": "CVX-22",
+	{"cvx_code": "22",
 	"name": 	"DTP/HIB",
 	"series": 	[1,2,3,4],
 	"given": 	[131,132,133,134], 
@@ -312,7 +312,7 @@
 	"site": 	[null,null,8169,null],
 	"vis_date": [8207,8208,8209,8210]
 	},
-	{"cvx_code": "CVX-28",
+	{"cvx_code": "28",
 	"name": 	"DT (pediatric)",
 	"series": 	[null],
 	"given": 	[24738], 
@@ -324,7 +324,7 @@
 	"site": 	[42382],
 	"vis_date": [null]
 	},
-	{"cvx_code": "CVX-32",
+	{"cvx_code": "32",
 	"name": 	"MPSV4 (Menomune)",
 	"series": 	[1,2],
 	"given": 	[81972,2839], 
@@ -336,7 +336,7 @@
 	"site": 	[81977,null],
 	"vis_date": [81972,null]
 	},
-	{"cvx_code": "CVX-33",
+	{"cvx_code": "33",
 	"name": 	"pneumococcal",
 	"series": 	[null],
 	"given": 	[91], 
@@ -348,7 +348,7 @@
 	"site": 	[10041],
 	"vis_date": [7048]
 	},
-	{"cvx_code": "CVX-45",
+	{"cvx_code": "45",
 	"name": 	"hep B",
 	"series": 	[1,2,3,4,5],
 	"given": 	[  93, 109, 110,2939,2940], 
@@ -360,7 +360,7 @@
 	"site": 	[4061,4062,4063,7653,null],
 	"vis_date": [null,null,6739,8212,null]
 	},
-	{"cvx_code": "CVX-50",
+	{"cvx_code": "50",
 	"name": 	"DTaP-Hib",
 	"series": 	[1,2,3,4],
 	"given": 	[3892,3897,3902,3907], 
@@ -372,7 +372,7 @@
 	"site": 	[null,null,null,null],
 	"vis_date": [null,null,null,8205]
 	},
-	{"cvx_code": "CVX-51",
+	{"cvx_code": "51",
 	"name": 	"H Flu/Hep B",
 	"series": 	[1,2,3],
 	"given": 	[4259,4264,4269], 
@@ -384,7 +384,7 @@
 	"site": 	[4273,4274,null],
 	"vis_date": [8214,8215,null]
 	},
-	{"cvx_code": "CVX-62",
+	{"cvx_code": "62",
 	"name": 	"Gardasil",
 	"series": 	[1,2,3],
 	"given": 	[90575,104055,104064], 
@@ -396,7 +396,7 @@
 	"site": 	[90577,104061,104070],
 	"vis_date": [104053,104062,104071]
 	},
-	{"cvx_code": "CVX-85",
+	{"cvx_code": "85",
 	"name": 	"Hep A",
 	"series": 	[1,2,null],
 	"given": 	[ 2860, 2861,5203], 
@@ -408,7 +408,7 @@
 	"site": 	[10032,10033,5208],
 	"vis_date": [ 6734, 6735,null]
 	},
-	{"cvx_code": "CVX-88",
+	{"cvx_code": "88",
 	"name": 	"Flu",
 	"series": 	[null,   2,    3],
 	"given": 	[  92,5728,23290], 
@@ -420,7 +420,7 @@
 	"site": 	[10043,null,null],
 	"vis_date": [null,null,null]
 	},
-	{"cvx_code": "CVX-89",
+	{"cvx_code": "89",
 	"name": 	"Oral Polio Vaccine",
 	"series": 	[1,2,3,4,5,6],
 	"given": 	[85,101,102,103,2978,7666], 
@@ -432,7 +432,7 @@
 	"site": 	[null,4056,4057,null,null,null],
 	"vis_date": [6745,6746,6747,null,null,null]
 	},
-	{"cvx_code": "CVX-91",
+	{"cvx_code": "91",
 	"name": 	"typhoid",
 	"series": 	[null],
 	"given": 	[2837], 
@@ -444,7 +444,7 @@
 	"site": 	[null],
 	"vis_date": [null]
 	},
-	{"cvx_code": "CVX-94",
+	{"cvx_code": "94",
 	"name": 	"MMR/Varicella",
 	"series": 	[2],
 	"given": 	[94581], 
